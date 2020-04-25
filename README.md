@@ -1,5 +1,5 @@
 ## Outline
-**Do Devs Dream of Electric Sheep?** is a terminal text game that is my rendition of the Voight-Kampff test, from the 1982 film *Blade Runner*. The interviewer Deckard, main charcter of the film, asks a series of seemingly odd questions trying to discover if the User is a Human, Replicant or a "Rogue" Replicant, and *retires* them if they are the latter.
+**Do Devs Dream of Electric Sheep?** is a terminal text game that is a rendition of the Voight-Kampff test, from the 1982 film *Blade Runner*. The interviewer Deckard, main charcter of the film, asks a series of seemingly odd questions trying to discover if the User is a Human, Replicant or a "Rogue" Replicant, and *retires* them if they are the latter.
 <br /> It is built in Ruby to explore Modularisation, object-oriented programming, DRY principles, Ruby Gems and  Error Handling as well as learning how to properly plan, structure and create a project utilising product management tools.
 
 # Background Information
