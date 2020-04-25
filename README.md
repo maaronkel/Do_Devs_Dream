@@ -61,8 +61,6 @@ If the User inputs something incorrectly for an answer, Deckard will prompt the 
 
 The game begins with an ASCII title, then the game asks the user to relax, if they're ready to begin, and then follows by asking a series of seemingly odd questions, that are meant to determine if the user is a human or replicant, based off their responses.
 
-I hope you're not the latter.
-
 ## Current Features
 -  Menu, allowing the user access to
 	- Start the tes
