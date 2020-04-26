@@ -24,3 +24,12 @@
 #     end
 #   end
 # end
+
+# -- Slow Typing method
+#  def type_slow(words)
+#      words.each_char { |char| 
+#          print char
+#          sleep(0.05)
+#          }
+#      print "\n"
+#  end
