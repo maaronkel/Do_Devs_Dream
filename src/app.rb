@@ -1,3 +1,6 @@
-require_relative 'welcome_screen.rb'
+require_relative 'intro.rb'
+require_relative 'test.rb'
+require_relative 'methods.rb'
 
-welcome_screen = Welcome.new
+begin_game = Welcome.new
+start_test = StartTest.new
