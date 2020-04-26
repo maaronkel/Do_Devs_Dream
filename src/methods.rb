@@ -1,22 +1,7 @@
+# -- need to modularize more
 # class Functions
-#   def initialize(type_slow)
-#     @type_slow = type_slow
-#   end
+
 # end
-
-# -- Slow Typing method
-def type_slow(words)
-  words.each_char { |char| 
-    print char
-    sleep(0.05)
-    }
-  print "\n"
-end
-
-# -- Adds a space
-def br 
-  puts
-end
 
 # -- not using for now
 
