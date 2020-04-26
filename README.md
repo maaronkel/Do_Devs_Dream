@@ -93,7 +93,7 @@ The main jist of my application is for Deckard to ask a series of multiple choic
 - if you're a replicant, you get told to get back to work
 - if you're a "rogue" replicant, you get *retired*
 
-<img src="docs/Control_Flow_Diagram.png"/>
+<!-- <img src="docs/Control_Flow_Diagram.png"/> -->
 
 # Planning Process
 TODO - add screenshots of Trello board
