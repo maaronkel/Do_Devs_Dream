@@ -4,14 +4,11 @@ class RandEnding
   def user_ending
   endings = ["Human", "Replicant", "Rogue Replicant"]
   ending = endings.sample
-    if ending == endings[0]
-      puts ending
-      true
-    elsif ending == endings[1]
-      puts ending
-      true
-    elsif ending == endings[2]
-      puts ending
+    if
+    #   true
+    # elsif ending == endings[1]
+    #   true
+    # elsif ending == endings[2]
       true
     else
       false

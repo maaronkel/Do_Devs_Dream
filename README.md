@@ -1,6 +1,6 @@
 ## Outline
 **Do Devs Dream of Electric Sheep?** is a terminal text game that is a rendition of the Voight-Kampff test, from the 1982 film *Blade Runner*. The interviewer Deckard, main charcter of the film, asks a series of seemingly odd questions trying to discover if the User is a Human, Replicant or a "Rogue" Replicant, and *retires* them if they are the latter.
-<br /> It is built in Ruby to explore Modularisation, object-oriented programming, DRY principles, Ruby Gems and  Error Handling as well as learning how to properly plan, structure and create a project utilising product management tools.
+<br /> It is built in Ruby to explore Modularisation, DRY principles, Ruby Gems and Error Handling as well as learning how to properly plan, structure and create a project utilising product management tools.
 
 Disclaimer: Please don't take this test too seriously. I am providing an example of how impossible it might be to define a human or a replicant, based off a small program.
 
@@ -113,6 +113,7 @@ Two tests or "examples" using RSpec. First one checks to see if the pre_test_msg
 
 Another example that checks to see if the method user_ending prints out a random ending to the User, and then returns returns true if it passes, else it returns false
 <img src="docs/rand_ending_spec.png"/>
+<img src="docs/rand_ending_spec_fail.png" />
 
 
 # Development Log
