@@ -1,4 +1,5 @@
 # require_relative 'methods.rb'
+require "colorize"
 
 # -- Slow Typing method
 def type_slow(words)
@@ -37,7 +38,7 @@ class StartTest
   questions = [
     ["Someone gives you a calfskin wallet for your birthday. How do you react?", "I wouldn't accept it ", "Say, 'Thank you for the wallet!'", "I would appreciate it"],
     ["You've got a little boy, he shows you his butterfly collection, plus the killing jar. What do you say?", "'Oh, lovely!'", "'That's nice, but why don't you keep the killing jar for yourself?'", "I take him to the doctor"],
-    ["You're watching television. Suddenly you realise there's a wasp crawling on your arm. How do you react?", "I kill it", "I swat it away", "I scream, then grab the closest object to me (which happens to be my copy of 'Clean Code: A Handbook of Agile Software Craftsmanship') and beat the hell out of it "],
+    ["You're watching television. Suddenly you realise there's a wasp crawling on your arm. How do you react?", "I kill it", "I swat it away", "I scream, then grab the closest object to me (which happens to be my copy of 'Clean Code: A Handbook of Agile Software Craftsmanship') and beat the hell out of it"],
     ["While walking along in desert sand, you suddenly look down and see a tortoise crawling toward you. You reach down and flip it over onto its back. The tortoise lies there, its belly baking in the hot sun, beating its legs, trying to turn itself over, but it cannot do so without your help. You are not helping. Why?", "What do you mean, I'm not helping?", "What is a tortoise?", "I don't know why I would want to flip it over in the first place"],
     ["Describe in single words only the good things that come to mind about your mother.", "Care, warm voice, cookies", "Eat. Your. Vegetables", "..."],
     ["React to this: You're watching a stage play. A banquet is in progress. The guests are enjoying an appetizer of raw oysters. The entree consists of boiled dog stuffed with rice. The raw oysters are less acceptable to you than a dish of boiled dog.", "I only drink coffee.", "I wouldn't eat boiled dog.", "What stage play am I watching?"],
@@ -56,9 +57,6 @@ class StartTest
   clear_screen()
 
   questions.each do |question|
-    # answer.each do |answers|
-    #   puts answers
-    # end
     type_slow(question[0])
     sleep(2.5)
     type_slow(question[1])

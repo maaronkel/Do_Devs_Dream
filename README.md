@@ -102,7 +102,15 @@ TODO - link the Trello board
 
 
 # Testing
-TODO - add screenshots of Terminal displaying rspec testing
+Two tests or "examples" using RSpec. First one checks to see if the pre_test_msg method returns the string "Alright, I'm going to ask you a series of questions, just relax and answer them as simply as you can." before looping the questions. The second checks to see if the test_loop method loops through the array of questions.
+
+<img src="docs/start_test_spec.png"/>
+<br />
+<br />
+
+Another example that checks to see if the method user_ending prints out a random ending to the User, and then returns returns true if it passes, else it returns false
+<img src="docs/rand_ending_spec.png"/>
+
 
 # Development Log
 
