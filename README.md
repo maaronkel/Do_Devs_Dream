@@ -85,7 +85,11 @@ The game begins with an ASCII title, then the game asks the user to relax, if th
 
 ## Gems Used
 
-TODO - add list of gems and explain how each was used
+Colorize - used throughout the program.
+
+TTY-ProgressBar - used in one of the unique endings.
+
+TTY-Spinner - used at the start of the program, and in one of the unique endings.
 
 # Control Flow Design and Implementation
 The main jist of my application is for Deckard to ask a series of multiple choice questions to the User. They are intended to be "emotionally provoking" (at least in the film), however due to time constraints I won't be able to implement a way to calculate the Users ending dependant on how the answered, so for now, the program randomly chooses one of the three endings;

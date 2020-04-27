@@ -20,3 +20,6 @@ I kept getting too carried away with thinking of more and more features I wanted
 However if the Control Flow Diagram and SDP were basically finished by Wednesday/ Thursday, and I had a clear idea of what I could achieve, I would have given myself more time to potentially add the features I want, gain a better understanding of some OOP concepts as well as more testing and refactoring.
 
 This is definitely something I'm going to learn from for future projects, as I know what I should have done differently, however I'm still confident to finish the project by Monday the 27th.
+
+- **Sunday** *Night* - Finish coding the test.rb with question and answer loop + Code info.rb + Write more tests with Rspec + Start t apply DRY coding principles
+- **Monday** - Finish rspec testing + Modularize code + Code Help and Info section + Code the glitch animation and Meter + Add the screenshots of Trello to the SDP + add gems + create help file and shell script + make the presentation

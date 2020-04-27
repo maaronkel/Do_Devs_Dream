@@ -5,7 +5,6 @@ require_relative "methods.rb"
 module TheTest
   # -- TEST
   class QuestionLoop
-    Methods.clear_screen()
     def self.loop_questions
       Methods.type_slow("If you don't input one of the given answers, well...".colorize(:light_yellow))
       sleep(0.5)

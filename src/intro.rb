@@ -98,11 +98,6 @@ module Intro
       else   
         sleep(0.5)
         Methods.type_slow("Huhhh, alright, well... it's essentially an advanced form of\na lie detector test that measures contractions of the iris\nand the presence of invisible airborne particles emitted from the body.\nIt's primarly used by people like me, Blade Runners, to determine if a\nsuspect is truly human by measuring the degree of their empathic response\nthrough carefully worded questions and statements.")
-        sleep(1) 
-        ## TODO - add a blinking cursor instead of the .......
-        Methods.type_slower("......".colorize(:light_black))
-        sleep(1)
-        Methods.type_slower("......".colorize(:light_black))
         sleep(1)
         Methods.type_slower("......".colorize(:light_black))
         Methods.br
@@ -142,30 +137,15 @@ module Intro
         sleep(0.5)
         Methods.clear_screen()
         sleep(1)
-        puts "Help"
-        puts "To answer, input numbers 1,2 or 3. "
+        puts "Help".colorize(:light_yellow)
+        puts "How will the Test work?".colorize(:light_black)
+        puts "You will be prompted to answer 12 questions, upon finishing the test,\nthe program will show you what you are and give you\na unique ending out of a possible 3. Being;\nHuman (Your safe)\nReplicant (Acceptable)\nRogue Replicant (You get retired - killed)"
         Methods.br
-        sleep(2)
-        Methods.type_slow("Have you read it all?".colorize(:light_yellow))
+        puts "How to Play?".colorize(:light_yellow)
+        puts "To answer the questions, input numbers 1,2 or 3. If you don't answer\ncorrectly, the program will warn you to answer properly next time."
         Methods.br
-        sleep(0.5)
-        user_input = gets.chomp
-        case user_input
-        when "No", "no", "N", "n", "Nah", "nah", "nope", "Nope"
-          Methods.br
-          sleep(0.5)
-          Methods.type_slow("Well, we've got to hurry this thing along.".colorize(:light_yellow))
-          sleep(0.5)
-          Methods.clear_screen()
-        else 
-          Methods.br
-          sleep(0.5)
-          Methods.type_slow("Lets keep going.".colorize(:light_yellow))
-          sleep(0.5)
-          Methods.clear_screen()
-        end
+        Methods.close_menu()
       end
-      Methods.clear_screen()
     end
     # -- View Info
     def self.info_menu
@@ -180,29 +160,20 @@ module Intro
         sleep(0.5)
         Methods.clear_screen()
         sleep(1)
-        puts "Info"
+        puts "Info".colorize(:light_yellow)
+        puts "What is this 'Test'?".colorize(:light_black)
+        puts "This program is based off a machine called the Voight Kampff\nfrom the 1982 film Blade Runner, and its loosely based insipiration,\n'Do Androids Dream of Electric Sheep?', hence the name of this App.\nThe machine is used to test subjects, and deem whether they are a\nHuman or Replicant."
         Methods.br
-        sleep(2)
-        Methods.type_slow("Have you read it all?".colorize(:light_yellow))
+        puts "Whats a Replicant?".colorize(:light_black)
+        puts "A Replicant, is the name of an advanced genetically engineered being,\nphysically identitcal to humans. In the film, they are used for degrading\nwork like slave labour, soldiers in war, etc. Because of the life\nthey are forced into, some of them become unstable, and try to overthrow\ntheir creators. At the end of the test, you will be shown if\nyou're really a Human or not...(sort of)"
         Methods.br
-        sleep(0.5)
-        user_input = gets.chomp
-        case user_input
-        when "No", "no", "N", "n", "Nah", "nah", "nope", "Nope"
-          Methods.br
-          sleep(0.5)
-          Methods.type_slow("Well, you can read up more about this later if you like.".colorize(:light_yellow))
-          sleep(1)
-          Methods.clear_screen()
-        else 
-          sleep(0.5)
-          Methods.clear_screen()
-        end
-        Methods.clear_screen()
+        Methods.close_menu()
       end
       sleep(0.5)
+      Methods.br
       Methods.type_slow("Time to get to the test.".colorize(:light_yellow))
       sleep(1)
+      Methods.clear_screen()
     end
   end
 end

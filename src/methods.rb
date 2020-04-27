@@ -1,7 +1,7 @@
 require "colorize"
 
 class Methods
-  def initialize(name, clear_screen, type_fast, type_slow, br, close_app)
+  def initialize(name, clear_screen, type_fast, type_slow, br, close_app, close_menu)
     @@name = name
     @clear_screen = clear_screen
     @type_fast = type_fast()
@@ -10,6 +10,7 @@ class Methods
     @type_slowest = type_slowest()
     @br = br
     @close_app = close_app
+    @close_menu = close_menu
   end
 
   # -- "clears the screen" 
@@ -58,7 +59,7 @@ class Methods
     puts
   end
 
-  # -- a way to exit the app at the end
+  # -- exit the app
   def self.close_app
     br
     clear_screen()
@@ -66,6 +67,14 @@ class Methods
     answer = gets.chomp
     clear_screen()
   end
+
+  # -- exit menu section
+  def self.close_menu
+    puts "Press any key to Continue.".colorize(:light_yellow)
+    answer = gets.chomp
+    clear_screen()
+  end
+
 end
 
 # -- not using for now

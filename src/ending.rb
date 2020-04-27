@@ -1,6 +1,6 @@
 require "colorize"
-require "tty-progressbar"
 require "tty-spinner"
+require "tty-progressbar"
 require_relative "methods.rb"
 
 # -- ENDING
@@ -38,7 +38,7 @@ module Ending
       if user_ending == endings[0]
         Methods.type_slow("Hmm, alright, you can go back home now,")
         sleep(0.25)
-        Methods.type_slow("Thanks for your time #{@name}.")
+        Methods.type_slow("Thanks for your time.")
         sleep(1)
         Methods.close_app
       elsif user_ending == endings[1]
