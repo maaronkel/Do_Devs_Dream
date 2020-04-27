@@ -3,8 +3,8 @@ require_relative 'test.rb'
 require_relative 'ending.rb'
 require_relative 'methods.rb'
 
-Intro::Welcome.welcome_msg
+# Intro::Welcome.welcome_msg
 Intro::Welcome.help_menu
 Intro::Welcome.info_menu
-TheTest::QuestionLoop.loop_questions
-Ending::EndScreen.user_ending
+# TheTest::QuestionLoop.loop_questions
+# Ending::EndScreen.user_ending

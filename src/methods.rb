@@ -1,8 +1,13 @@
+require "colorize"
+
 class Methods
-  def initialize(name, clear_screen, type_slow, br, close_app)
+  def initialize(name, clear_screen, type_fast, type_slow, br, close_app)
     @@name = name
     @clear_screen = clear_screen
+    @type_fast = type_fast()
     @type_slow = type_slow()
+    @type_slower = type_slower()
+    @type_slowest = type_slowest()
     @br = br
     @close_app = close_app
   end
@@ -10,6 +15,15 @@ class Methods
   # -- "clears the screen" 
   def self.clear_screen
     puts `clear`
+  end
+
+  # -- fast typing method
+  def self.type_fast(words)
+    words.each_char { |char| 
+      print char
+      sleep(0.02)
+      }
+    print "\n"
   end
 
   # -- Slow Typing method
@@ -25,6 +39,15 @@ class Methods
   def self.type_slower(words)
     words.each_char { |char| 
       print char
+      sleep(0.1)
+      }
+    print "\n"
+  end
+
+  # -- slowest type
+    def self.type_slowest(words)
+    words.each_char { |char| 
+      print char
       sleep(0.5)
       }
     print "\n"
@@ -36,27 +59,12 @@ class Methods
   end
 
   # -- a way to exit the app at the end
-    def self.close_app
-    type_slow("Do you wish to exit?")
+  def self.close_app
+    br
+    clear_screen()
+    type_slow("Press any key to Exit.".colorize(:light_yellow))
     answer = gets.chomp
-    case answer
-    when "yes", "Yes", "YES", "y", "Y"
-        sleep(2)
-        clear_screen()
-
-    when "no", "No", "NO", "n", "N"
-        sleep(2)
-        clear_screen()
-    else
-        clear_screen()
-        type_slow("Invalid Repsonse.")
-        waits(1)
-        br()
-        br()
-        type_slow("Bye !")
-        waits(2)
-        clear_screen()
-    end
+    clear_screen()
   end
 end
 
