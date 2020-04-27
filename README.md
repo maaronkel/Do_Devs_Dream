@@ -53,8 +53,6 @@ I was a bit concerned at the beginning that maybe this project would be out of m
 
 - The User is *retired* if they get the "Rogue" Replicant ending, followed by being prompted to exit the program
 
-If at any point the User wants to quit the program, they can do so by pressing TODO - add the cli used.
-
 If the User inputs something incorrectly for an answer, Deckard will prompt the User to take the test seriously and answer the first thing that comes to mind.
 
 
@@ -100,10 +98,12 @@ The main jist of my application is for Deckard to ask a series of multiple choic
 <img src="docs/Control_Flow_Diagram.png"/>
 
 # Planning Process
-TODO - add screenshots of Trello board
+This wasn't my first time using Trello, however it was the first time for using it to plan a complete project.
 
-TODO - link the Trello board
+The Lists were pretty easy to follow, and it ddefinitely helped in having a visual representation of each task I needed to accomplish.
 
+
+<img src="docs/trello.png" />
 
 # Testing
 Two tests or "examples" using RSpec. First one checks to see if the pre_test_msg method returns the string "Alright, I'm going to ask you a series of questions, just relax and answer them as simply as you can." before looping the questions. The second checks to see if the test_loop method loops through the array of questions.
