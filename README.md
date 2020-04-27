@@ -106,7 +106,6 @@ Two tests or "examples" using RSpec. First one checks to see if the pre_test_msg
 
 <img src="docs/start_test_spec.png"/>
 <br />
-<br />
 
 Another example that checks to see if the method user_ending prints out a random ending to the User, and then returns returns true if it passes, else it returns false
 <img src="docs/rand_ending_spec.png"/>
