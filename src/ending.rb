@@ -1,9 +1,11 @@
 require "colorize"
 require "tty-spinner"
 require "tty-progressbar"
+
 require_relative "intro.rb"
 require_relative "methods.rb"
 
+# -- Randomly selects an ending for the User, and displays a unique message for each before prompting the User to exit the game
 def user_ending
   endings = ["               Human             ".colorize(:green), "             Replicant           ".colorize(:light_red), "          Rogue Replicant        ".colorize(:red)]
 

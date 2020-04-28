@@ -1,4 +1,5 @@
 require "colorize"
+
 require_relative "methods.rb"
 
 class UserName
@@ -7,7 +8,8 @@ class UserName
   end
 end
 
-def welcome
+# -- Starts Welcome Screen + followed by introduction
+def start_game
   clear_screen
   sleep(0.5)
   type_slow("Welcome to ...".colorize(:light_black))

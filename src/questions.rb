@@ -1,8 +1,9 @@
 require "colorize"
 require "tty-spinner"
+
 require_relative "methods.rb"
 
-
+# -- Loops through each quesion
 def question_loop
   type_slow("If you don't input one of the given answers, well...".colorize(:light_yellow))
   sleep(0.5)
@@ -41,7 +42,7 @@ def question_loop
   questions.each do |question|
     type_slow(question[0])
     sleep(0.5)
-    .br
+    br
     puts question[1]
     sleep(0.5)
     puts question[2]
