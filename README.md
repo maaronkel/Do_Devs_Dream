@@ -4,6 +4,8 @@
 
 Disclaimer: Please don't take this test too seriously. I am providing an example of how impossible it might be to define a human or a replicant, based off a small program.
 
+*P.S. I'm not sure the shell script works*
+
 # Background Information
 In the dystopian world of Ridley Scott's 1982 film Blade Runner, and its loosely based insipiration, "Do Androids Dream of Electric Sheep?" the novel by Philip K. Dick, you're either a Human or a genetically engineered being called a Replicant - mostly used for dangerous and degrading work like slave labour. Sometimes these Replicants go "rogue", so it becomes the job of a special police unit - Blade Runners - to hunt down and *retire* (assassinate) those Replicants.
 
