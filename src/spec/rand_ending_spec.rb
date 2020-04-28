@@ -5,10 +5,10 @@ class RandEnding
   endings = ["Human", "Replicant", "Rogue Replicant"]
   ending = endings.sample
     if
-    #   true
-    # elsif ending == endings[1]
-    #   true
-    # elsif ending == endings[2]
+      true
+    elsif ending == endings[1]
+      true
+    elsif ending == endings[2]
       true
     else
       false
